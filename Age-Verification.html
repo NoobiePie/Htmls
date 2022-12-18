@@ -16,12 +16,12 @@
 							if(Age<=0)
 							{
 								alert("Bro, You ain't even Existing..");
-								Repeat()
+								Repeat();
 							}
 							else
 							{
 								alert("You are still a kiddo, dumass!");
-								Repeat()
+								Repeat();
 							}
 						}
 						else
@@ -29,18 +29,26 @@
 							if(Age>=14 && Age<18)
 							{
 								alert("No, you are not eligible for Voting, Grow up Lmao!");
-								Repeat()
+								Repeat();
 							}
 							else
 							{
-								if(Age>=18 && Age<=100)
+								if(Age>=18 && Age<=80)
 								{
 									document.write("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"You Are Eligible for Voting, Congo!");
 								}
 								else
 								{
-									alert("Bruh, you a Immortal MF!  NO");
-									Repeat()
+									if(Age>80 && Age<=100)
+									{
+										alert("Too Old, Go vote for the coffins..")
+										Repeat();
+									}
+									else
+									{
+										alert("Bruh, you a Immortal MF!  NO");
+										Repeat();
+									}
 								}
 							
 							}
