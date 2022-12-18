@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<title>Age Verification</title>
+		</head>
+		<body><center>
+			<script language = "javascript">
+				var Age;
+
+				function Repeat()
+				{
+					Age = parseInt(prompt("Enter Your Age"));
+
+						if(Age<14 || Age<=0)
+						{
+							if(Age<=0)
+							{
+								alert("Bro, You ain't even Existing..");
+								Repeat()
+							}
+							else
+							{
+								alert("You are still a kiddo, dumass!");
+								Repeat()
+							}
+						}
+						else
+						{
+							if(Age>=14 && Age<18)
+							{
+								alert("No, you are not eligible for Voting, Grow up Lmao!");
+								Repeat()
+							}
+							else
+							{
+								if(Age>=18 && Age<=100)
+								{
+									document.write("<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"<br>"+"You Are Eligible for Voting, Congo!");
+								}
+								else
+								{
+									alert("Bruh, you a Immortal MF!  NO");
+									Repeat()
+								}
+							
+							}
+						}
+				}
+				Repeat()
+			</script><br><br><br>
+
+			<img src = "https://www.pngmart.com/files/22/Emoji-Thumbs-Up-PNG-File.png" height = 400 width = 400>
+		</center></body>
+	</html>
